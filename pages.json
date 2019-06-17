@@ -3,14 +3,56 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "笑猿"
+			}
+		}, {
+			"path": "pages/msg/msg",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}, {
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "笑猿",
+		"navigationBarBackgroundColor": "#00D8A0",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#00D8A0",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabar/home.png",
+			"selectedIconPath": "static/tabar/homes.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/find/find",
+			"iconPath": "static/tabar/find.png",
+			"selectedIconPath": "static/tabar/finds.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/msg/msg",
+			"iconPath": "static/tabar/msg.png",
+			"selectedIconPath": "static/tabar/msgs.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/tabar/mine.png",
+			"selectedIconPath": "static/tabar/mines.png",
+			"text": "我的"
+		}]
 	}
 }
